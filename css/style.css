@@ -6,20 +6,20 @@
 img{
     max-width: 100%;
 }
+.container{
+    margin-bottom: 3rem;
+}
 header{
 
-    background-color: orange;
+    background-color: hsl(208.7deg 100% 49.61%);
     min-height: 80px 
     
 }
 .row{
-    display: flex;
+    display: flex;  
+}
+.space-between{
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    
-
-    
 }
 #logo{
     vertical-align: middle;
@@ -34,12 +34,107 @@ header{
     line-height: 80px;
     vertical-align: middle;
     background-color: green;
-    margin: 0 30px;  
+    margin: 0 20px;  
 }
 
 #informations{
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 20px;
+    line-height: 80px;
+    vertical-align: middle;
+    padding: 0 20px;
     display: none;
+}
+/* sezione 1 */
+
+.column{
+    flex-direction: column;
+    margin-top: 3rem;
+    
+}
+.col{
+    min-height: 300px;
+    width: 90%;
+    margin: auto;
+    background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+/* sezione 2 viola  */
+.violet{
+    width: 100%;
+    min-height: 300px;
+    background-color: yellow;
+}
+.content{
+    flex-direction: column;
+}
+
+aside{
+    min-height: 200px;
+    width: 100%;
+    background-color: lightcoral;
+    border: 1px solid black;
+    margin: auto;
+}
+
+/* sezione testimonials */
+.testimonial{
+    min-height: 200px;
+    background-color: deepskyblue;
+    border: 1px dashed grey ;
+    margin: 20px;
+    margin-bottom: 1rem;
+}
+h2{
+    text-align: center;
+}
+.benefit{
+    min-height: 200px;
+    width: 90%;
+    background-color: pink;
+    margin-bottom: 1rem ;
+    border: 1px solid black;
+}
+.coll{
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem
+    
+}
+/* sezione about us */
+
+p{
+    margin-bottom: 2rem;
+}
+.description-left, .assistant{
+   background-color: indigo;
+   margin: 0 20px;
+}
+
+/* sezione get started */
+.center{
+    min-height: 200px;
+    width: 90%;
+    margin:auto;
+    background-color: aqua;
+    margin-top: 2rem;
+}
+
+/* sezione footer  */
+footer{
+    min-height: 200px;
+    background-color: black;
+    
+}
+.center-footer{
+    min-height: 200px;
+    width: 90%;
+    margin:auto;
+    background-color: blue ;
+    padding: 2rem;
+    
 }

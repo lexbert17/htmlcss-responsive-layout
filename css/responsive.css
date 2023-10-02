@@ -1,14 +1,152 @@
-/* media screen header  */
+/*  header  */
 
 @media screen and (min-width:768px){
+    header{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin: auto;
+    }  
+    
 }
 
 @media screen and (min-width: 992px){
+    header{
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
     #informations{
         display: block;
         display: flex;
+        
     }
     .menu{
         display: none;
     }
+    .container{
+        width: 80%;
+        margin: auto;
+    }  
+}
+
+/* sezione 1 */
+
+@media screen and (min-width:768px){
+    .container{
+        width: 100%;
+        background-color: green;
+    }
+    .column{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        
+    }
+    .col:first-child{
+        width: 62%
+    }
+    .col{  
+        width: calc(100% / 3 - 2rem);
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container{
+        width:70%;
+        background-color: orange;  
+    }
+    
+}
+
+/*  sezione viola  */
+
+@media screen and (min-width:768px){
+   
+    .aside{
+       width: 100%;
+       height: 100%;
+    }
+}
+@media screen and (min-width: 992px){
+    .container{
+        flex-direction: row;
+        justify-content: center;
+        gap:1rem
+        
+    }
+    aside{
+        width: 40%;
+    }
+}
+
+/*  sezione testimonials */
+
+@media screen and (min-width:768px){
+    .coll{
+        flex-direction: row;
+        justify-content: center;
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .benefit{
+        width: 45%;
+        
+    }  
+}
+
+@media screen and (min-width: 992px){
+    .benefit{
+        width: 30%; 
+    }
+    .coll{
+        gap: 1rem;
+    }
+}
+
+/* sezione about us  */
+
+@media screen and (min-width:768px){
+    
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;   
+    }
+   
+    .assistant{
+        width: 30%;
+    }
+    .description-left{
+        width: 55%;
+    }
+}
+
+
+/* sezione get started */
+@media screen and (min-width:768px){
+    .center{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .center{
+        width: 35%;
+    }
+}
+
+/* sezione footer  */
+@media screen and (min-width:768px){
+    .center-footer{
+        width: 70%;
+    }
+}
+@media screen and (min-width: 992px){
+    .center-footer{
+        width: 35%;
 }

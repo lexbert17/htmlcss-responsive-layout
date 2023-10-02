@@ -1,0 +1,14 @@
+/* media screen header  */
+
+@media screen and (min-width:768px){
+}
+
+@media screen and (min-width: 992px){
+    #informations{
+        display: block;
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+header{
+
+    background-color: orange;
+    min-height: 80px 
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+    
+}
+#logo{
+    vertical-align: middle;
+    background-color: green;
+    line-height: 80px;
+    height: 80px;
+    margin: 0 30px;
+    
+}
+.menu{
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+    background-color: green;
+    margin: 0 30px;  
+}
+
+#informations{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    display: none;
+}

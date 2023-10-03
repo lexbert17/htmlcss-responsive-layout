@@ -153,13 +153,16 @@
 /*  sezione testimonials */
 
 @media screen and (min-width:768px){
-    .coll{
+    .clmn{
         flex-direction: row;
-        justify-content: center;
-        display: flex;
-        gap: 2rem;
+        align-items:end
     }
-    
+    .picture{
+        width: 30%;
+    }
+    .feedback{
+        width: 65%;
+    }
     .benefit{
         width: 45%;
         

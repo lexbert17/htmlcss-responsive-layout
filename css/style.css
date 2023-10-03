@@ -18,16 +18,20 @@ body{
 .row{
     display: flex;  
 }
-
+.text-center{
+    text-align: center;
+}   
+.mrg-bot{
+    margin-bottom: 2rem;
+}
+.clmn{
+    flex-direction: column;
+}
 header{
 
     background-color: hsl(208.7deg 100% 49.61%);
-    min-height: 80px 
-    
-}
-.row{
-    display: flex;  
-}
+    min-height: 80px    
+} 
 .space-between{
     justify-content: space-between;
 }
@@ -103,9 +107,7 @@ p{
     text-align: center;
     margin-top: 20px;
 }
-.text-center{
-    text-align: center;
-}   
+
 
 /* sezione 2 viola  */
 .violet{
@@ -142,14 +144,42 @@ aside{
 }
 /* sezione testimonials */
 .testimonial{
-    min-height: 200px;
-    background-color: deepskyblue;
-    border: 1px dashed grey ;
-    margin: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: hsl(243.66deg 60.29% 73.33%);
+    border-radius: 50px;
     margin-bottom: 1rem;
+    color: white;
 }
-
-
+.testimonial:first-child{
+    padding-top: 3rem;
+    color: black;
+    background-color: white;
+}
+.testimonial img{
+    text-align: center;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+    margin-bottom: 2rem; 
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+#testimonials h2{
+    color: hsl(243.66deg 60.29% 73.33%);
+}
+span{
+    line-height: 1.8rem; 
+}
+.feedback p{
+    margin-top: 2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
 .benefit{
     min-height: 200px;
     width: 90%;

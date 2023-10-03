@@ -9,9 +9,16 @@ img{
 body{
     font-family: PT Sans;
 }
+.content{
+    flex-direction: column;
+}
 .container{
     margin-bottom: 3rem;
 }
+.row{
+    display: flex;  
+}
+
 header{
 
     background-color: hsl(208.7deg 100% 49.61%);
@@ -47,9 +54,10 @@ header{
 
 .column{
     flex-direction: column;
-    margin-top: 3rem;
+    margin: 3rem 2rem ;
     gap: 1rem;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    
 }
 .mrg-bot{
     margin-bottom: 2rem;
@@ -57,16 +65,13 @@ header{
 #demo .col{
     padding-top: 2rem;  
 }
-#text-left{
-    text-align: left;
-}
 .text-left{
     text-align: left;
 }
-#demo p{
+p{
     line-height: 1.8rem;   
 }
-#demo h2{
+#demo h3{
     color: hsl(208.7deg 100% 49.61%);
 }
 .btn-center{
@@ -86,12 +91,12 @@ header{
     margin: auto;
 }
 .col{
-    width: 90%;
-    margin: auto;
+    
     background-color: hsl(207.57deg 100% 85.49%);
     text-align: left;
     border-radius: 20px;
-    padding: 30px 30px 0 30px;   
+    padding: 30px 30px 0 30px;  
+    margin-bottom: 1rem; 
 }
 .icon{
     font-size: 2.5rem;
@@ -105,21 +110,36 @@ header{
 /* sezione 2 viola  */
 .violet{
     width: 100%;
-    min-height: 300px;
-    background-color: yellow;
+    background-color: hsl(243.66deg 60.29% 73.33%);
+    padding-bottom: 2rem;
 }
-.content{
-    flex-direction: column;
-}
+
 
 aside{
-    min-height: 200px;
-    width: 100%;
-    background-color: lightcoral;
-    border: 1px solid black;
+    min-height: 300px;
+    width: 80%; 
     margin: auto;
+    padding-bottom: 2rem;
+    color: white;
 }
-
+.purple-right{
+    width: 80%;
+    padding-top: 2rem ;
+    background-color: white;
+    border-radius: 80px;
+    color: black;
+}
+#arrow{
+    background-color: hsl(243.66deg 60.29% 73.33%) ;
+    line-height: 25px;
+    width: 50px;
+    margin: auto;
+    line-height: 50px;
+    border-radius: 50%;
+}
+.purple-left .h2{
+    text-align: left;
+}
 /* sezione testimonials */
 .testimonial{
     min-height: 200px;
@@ -128,9 +148,8 @@ aside{
     margin: 20px;
     margin-bottom: 1rem;
 }
-h2{
-    text-align: center;
-}
+
+
 .benefit{
     min-height: 200px;
     width: 90%;
@@ -142,9 +161,9 @@ h2{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem
-    
+    gap: 2rem   
 }
+
 /* sezione about us */
 
 p{

@@ -52,11 +52,10 @@
 @media screen and (min-width:768px){
     .container{
         width: 100%;
-        border: 5px solid black;
     }
     .column{
         flex-direction: row;
-        width: 100%;
+       
         flex-wrap: wrap;
         gap: 1rem;
         
@@ -72,31 +71,83 @@
 
 @media screen and (min-width: 992px) {
     .container{
-        width:70%;
-        background-color: orange;  
+        width:70%; 
     }
-    
+    .col{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .lft{
+        width: 50%;
+    }
+    #size-phone{
+        width: 50%;
+        position: relative;
+        bottom: 0;
+        padding-top: 30px;
+    }
 }
 
 /*  sezione viola  */
 
 @media screen and (min-width:768px){
-   
-    .aside{
-       width: 100%;
-       height: 100%;
-    }
+     aside{
+        width: 100%;
+     }
+     #plan h2{
+        padding: 3rem 0;
+        text-align: left;
+     }
 }
 @media screen and (min-width: 992px){
-    .container{
+    #plan .purple-left{
+        width: 50%;
+        padding-top: 6rem;
+    }
+    #plan .row{
+        display: flex;
         flex-direction: row;
-        justify-content: center;
-        gap:1rem
+    }
+    #plan .container{
+        width: 70%;
+    }
+   
+    #plan img{
+        width: 100%;
+    }
+    .purple-left p{
+        padding-left: 3rem;
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+    .purple-right{
+        width: 40%; 
+        border-radius: 30px;  
+        align-self: baseline;
         
+       
+    }
+    #arrow{
+        font-size: 0.5rem;
+    }
+    #app{
+    width: 50%;
+    margin: auto;
+    }
+    .purple-right h3{
+        margin-bottom: 1rem;
+    }
+    .purple-right p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin-bottom: 1rem;
     }
     aside{
-        width: 40%;
+        padding-top: 3rem;
+        margin-bottom: 0;
     }
+    
 }
 
 /*  sezione testimonials */
@@ -130,7 +181,7 @@
     
     .row{
         display: flex;
-        flex-direction: row;
+        
         justify-content: space-around;   
     }
    

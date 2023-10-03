@@ -27,6 +27,7 @@ body{
 .clmn{
     flex-direction: column;
 }
+
 header{
 
     background-color: hsl(208.7deg 100% 49.61%);
@@ -82,7 +83,7 @@ p{
     background-color: hsl(208.7deg 100% 49.61%);
     text-align: center;
     line-height: 3rem;
-    width: 80%;
+    width: 200px;
     color: white;
     border-radius: 30px;
 }
@@ -195,7 +196,7 @@ span{
     color: hsl(243.66deg 60.29% 73.33%);
 }
 .btn-purple{
-    width: 40%;
+    width: 100px;
     background-color: hsl(243.66deg 60.29% 73.33%);
     text-align: center;
     line-height: 2rem;
@@ -223,15 +224,48 @@ span{
 
 
 /* sezione about us */
-
+#about-us h2{
+    color: hsl(243.66deg 60.29% 73.33%);
+}
+#about-us p{
+    line-height: 2.5rem;
+}
+#about-us h3{
+    color: hsl(243.66deg 60.29% 73.33%);
+}
 p{
     margin-bottom: 2rem;
 }
+p:last-child{
+    margin-bottom: ;
+}
+#linkedin{
+    display: block;
+    background-color:hsl(243.66deg 60.29% 73.33%) ;
+    width: 200px;
+    padding: 0 1rem;
+    line-height: 2.5rem;
+    border-radius: 30px ;
+}
+#linkedin a{
+    color: white;
+    text-decoration: none;
+}
 .description-left, .assistant{
-   background-color: indigo;
+   
    margin: 0 20px;
 }
-
+.assistant img{
+    text-align: center;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+    margin-bottom: 2rem;
+}
+#commas{
+    display: none;
+}
 /* sezione get started */
 .center{
     min-height: 200px;

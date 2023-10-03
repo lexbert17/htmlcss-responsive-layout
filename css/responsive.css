@@ -181,20 +181,37 @@
 /* sezione about us  */
 
 @media screen and (min-width:768px){
-    
-    .row{
+    #about-us .row{
         display: flex;
-        
-        justify-content: space-around;   
-    }
-   
-    .assistant{
-        width: 30%;
+        flex-direction: row;
     }
     .description-left{
         width: 55%;
     }
+    .assistant{
+        width: 30%;
+    }
+}   
+@media screen and (min-width: 992px){
+    #about-us .row{
+        display: flex;
+        flex-direction: row;
+    }
+    description-left{
+        width: 60%;
+    }
+    .assistant{
+        width: 30%;
 }
+
+
+
+    
+   
+  
+    
+    
+
 
 
 /* sezione get started */

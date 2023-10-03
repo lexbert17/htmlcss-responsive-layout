@@ -180,12 +180,39 @@ span{
     font-weight: 600;
     padding-bottom: 2rem;
 }
+/* sezione benefits  */
+#benefits h2{
+    text-align: center;
+    padding: 3rem 0;
+    color: white;
+}
+#benefits h3{
+    color: hsl(243.66deg 60.29% 73.33%);
+}
+.number{
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(243.66deg 60.29% 73.33%);
+}
+.btn-purple{
+    width: 40%;
+    background-color: hsl(243.66deg 60.29% 73.33%);
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 30px;
+}
+.btn-purple a{
+    text-decoration:none;
+    color: white;
+    font-weight: 600;
+}
 .benefit{
     min-height: 200px;
-    width: 90%;
-    background-color: pink;
+    width: 80%;
+    background-color:white;
     margin-bottom: 1rem ;
-    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 30px;
 }
 .coll{
     justify-content: center;
@@ -193,6 +220,7 @@ span{
     flex-wrap: wrap;
     gap: 2rem   
 }
+
 
 /* sezione about us */
 
